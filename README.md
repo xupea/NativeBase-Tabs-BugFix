@@ -5,7 +5,7 @@ This fixed native base tabs initialPage property issue : https://github.com/Geek
 ##
 How to patch?
 
-You must pass DefaultTabBar or ScrollableTabBar class to your Tab by renderTab property, for example
+You must pass DefaultTabBar or ScrollableTabBar class which I already patched to your Tab by renderTab property, for example
 
 ```js
 <Tabs
